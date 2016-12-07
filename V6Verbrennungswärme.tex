@@ -1,0 +1,218 @@
+
+\documentclass[12pt,a4paper,titlepage,headinclude,bibtotoc]{scrartcl}
+
+%---- Allgemeine Layout Einstellungen ------------------------------------------
+
+% Für Kopf und Fußzeilen, siehe auch KOMA-Skript Doku
+\usepackage[komastyle]{scrpage2}
+\pagestyle{plain}
+\setheadsepline{0.5pt}[\color{black}]
+\automark[section]{chapter}
+
+
+%Einstellungen für Figuren- und Tabellenbeschriftungen
+\setkomafont{captionlabel}{\sffamily\bfseries}
+\setcapindent{0em}
+
+
+%---- Weitere Pakete -----------------------------------------------------------
+% Die Pakete sind alle in der TeX Live Distribution enthalten. Wichtige Adressen
+% www.ctan.org, www.dante.de
+
+% Sprachunterstützung
+\usepackage[ngerman]{babel}
+
+% Benutzung von Umlauten direkt im Text
+% entweder "latin1" oder "utf8"
+\usepackage[utf8]{inputenc}
+
+% Pakete mit Mathesymbolen und zur Beseitigung von Schwächen der Mathe-Umgebung
+\usepackage{latexsym,exscale,stmaryrd,amssymb,amsmath}
+
+
+\usepackage[nointegrals]{wasysym}
+\usepackage{eurosym}
+
+% Anderes Literaturverzeichnisformat
+%\usepackage[square,sort&compress]{natbib}
+\usepackage{hyperref}
+% Für Farbe
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+
+% Caption neben Abbildung
+\usepackage{sidecap}
+
+
+% Befehl für "Entspricht"-Zeichen
+\newcommand{\corresponds}{\ensuremath{\mathrel{\widehat{=}}}}
+% Befehl für Errorfunction
+\newcommand{\erf}[1]{\text{ erf}\ensuremath{\left( #1 \right)}}
+
+
+%Fußnoten zwingend auf diese Seite setzen
+\interfootnotelinepenalty=1000
+
+%Für chemische Formeln (von www.dante.de)
+%% Anpassung an LaTeX(2e) von Bernd Raichle
+\makeatletter
+\DeclareRobustCommand{\chemical}[1]{%
+  {\(\m@th
+   \edef\resetfontdimens{\noexpand\)%
+       \fontdimen16\textfont2=\the\fontdimen16\textfont2
+       \fontdimen17\textfont2=\the\fontdimen17\textfont2\relax}%
+   \fontdimen16\textfont2=2.7pt \fontdimen17\textfont2=2.7pt
+   \mathrm{#1}%
+   \resetfontdimens}}
+\makeatother
+\usepackage{textcomp}
+\usepackage{upgreek}
+%\begin{document}
+%$\upmu$
+%\end{document}
+%Honecker-Kasten mit $$\shadowbox{$xxxx$}$$
+\usepackage{fancybox}
+
+%SI-Package
+\usepackage{siunitx}
+
+%keine Einrückung, wenn Latex doppelte Leerzeile
+\parindent0pt
+
+%Bibliography \bibliography{literatur} und \cite{gerthsen}
+%\usepackage{cite}
+\usepackage{babelbib}
+\selectbiblanguage{ngerman}
+
+\usepackage{siunitx}
+%\begin{document}
+ % \SI{1.55}{\micro\metre}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+\usepackage{amsmath}
+
+\usepackage{siunitx}
+%\begin{document}
+ % \SI{1.55}{\micro\metre}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+\usepackage{amsmath}
+\usepackage[verbose]{placeins}
+\usepackage{setspace}
+\usepackage{threeparttable}
+\usepackage[verbose]{placeins}
+
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\textsc{\Large Physikalisch- Chemisches Grundpraktikum\\[1.5ex] Universität Göttingen}
+
+\vspace*{0.5cm}
+
+\rule{\textwidth}{1pt}\\[0.5cm]
+{\huge \bfseries
+  Versuch 6: \\[1.5ex]
+  Verbrennungswärme einer festen organischen Substanz}\\[0.5cm]
+\rule{\textwidth}{1pt}
+
+\vspace*{0.5cm}
+
+
+\begin{Large}
+\begin{tabular}{ll}
+Durchführende: &  Isaac Maksso, Julia Stachowiak\\
+Assistent: & Jannis \\
+Versuchsdatum: & 08.12.2016\\
+Datum der ersten Abgabe: & 15.12.2016\\
+\end{tabular}
+\end{Large}
+
+\vspace*{0.5cm}
+
+
+
+
+\vspace{1.3cm} 
+\end{titlepage}
+
+
+\tableofcontents %=Inhaltsverzeichnis
+
+\section{Experimentelles}
+
+\subsection{Versuchsaufbau}
+\subsection{Durchführung}
+Die Verbrennungswärme einer festen unbekannten Substanz sollte mittels eines Kalorimeters mit Berthelot-Mahlerscher Bombe ermittelt werden.
+Dabei wurde je ein Temperatur-Zeit-Diagramm mit LabView aufgestellt und die anderen Größen aus der Temperaturdifferenz bestimmt. Die Temperaturmessung erfolgte über einen Pt1000-\,Temperaturmesskopf (Verstärkung mit einem Pt1000-Vorverstärker um 20mV/K). Die Vor- und Nachperiode \textbf{betrug jeweils 5-7 Minuten}.\\
+Zur Bestimmung der Wärmekapazität des Kalorimeters wurden ca. 0,6 g Benzoesäure sowie ein vorher gewogener Nickeldraht zur Zündung in eine Tablette gepresst. Diese wurde anschließend mit 20-25 atm O$_2$ befüllt und die Enden des Nickeldrahtes an die Elektroden angeschlossen und die Temperatur von LabView aufgezeichnet.\\
+Anschließend wurde der Vorgang mit der organischen Substanz wiederholt. Der Versuch wurde jeweils 3 Mal wiederholt. Als erste organische Substanz diente Naphtalin und anschließend die unbekannte Substanz. Ein Durchlauf wurde mit \textbf{selbst mitgebrachte Substanz} durchgeführt.\\
+
+\section{Auswertung}
+
+Für die Verbrennung von Naphtalin (\ref{Naphtalin}) und Benzoesäure %(\ref{Benzoesäure}) ergeben sich folgende Reaktionsgleichungen:\\
+
+%\begin{equation}\label{Benzoesäure}
+%2\mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + 15\mathrm{O}_2 \rightarrow 14\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O}
+%\end{equation}
+
+
+\begin{equation}\label{Naphtalin}
+\mathrm{C}_{10}\mathrm{H}_8 + 15\mathrm{O}_2 \rightarrow 14 \mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O}
+\end{equation}
+
+Nach dem Satz von Hess kann die Reaktionsenthalpie aus den Standardbildungsenthalpien $\Delta H_\mathrm{f}$ berechnet werden:\\
+
+\begin{equation} \label{GleichungHess}
+\Delta H_\mathrm{V} = \sum_i \nu_i\Delta H_{\mathrm{f},i}\mathrm{(Produkte)} - \sum_i \nu_i\Delta H_{\mathrm{f},i}\mathrm{(Edukte)}
+\end{equation}
+
+Die Literaturwerte für die molaren Standardbildungsenthalpien sowie die nach Gleichung(\ref{GleichungHess}) berechnete Verbrennungsenthalpie für Naphtalin sind in Tabelle(\ref{TABELLELiteraturwerte Bildungsenthalpien}) aufgelistet:\\
+
+\begin{table} \label{TABELLELiteraturwerte Bildungsenthalpien}
+\caption{molare Standardbildungsenthalpien sowie die Verbrennungsenthalpie von Naphtalin}
+\begin{tabular}{c|c}
+
+  & $\Delta H_{\mathrm{f,m}}$ \\ 
+ \hline 
+ $\mathrm{C}_6\mathrm{H}_5\mathrm{COOH}$ & • \\ 
+ \hline 
+ $\mathrm{C}_{10}\mathrm{H}_8$ & • \\
+ \hline 
+ $\mathrm{O}_2$ & • \\ 
+ \hline 
+ $\mathrm{CO}_2$ & • \\ 
+ \hline 
+ $\mathrm{H}_2\mathrm{O}$ & • \\ 
+ \end{tabular}  
+\end{table}
+
+
+
+\section{Literaturverzeichnis}
+
+1,3,4\quad \emph{CRC Handbook of Chemistry and Physics}, 84. Auflage; D.R. Lide; CRC Press LLC: Boca Raton, \textbf{2004}.
+
+2\quad Kabo, G.J.; Kozyro,A., A.; Frenkel, M.; Blokhin, A. V.\emph{Mol. Cryst. Liq. Cryst.}, \textbf{1999}, \emph{326}, 333-335.
+
+5\quad Eckhold, Götz: \emph{Praktikum I zur Physikalischen Chemie}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2014}.
+
+\vspace{0,5 cm}
+
+6 \quad Eckhold, Götz: \emph{Statistische Thermodynamik}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2012}.
+
+\vspace{0,5cm}
+
+7 \quad Eckhold, Götz: \emph{Chemisches Gleichgewicht}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+
+\vspace{0,5cm}
+
+8 \quad Atkins, P.W.: \emph{Physikalische Chemie}, Wiley-VCH, Weinheim, \
+ textbf{2006}.\\
+
+\vspace{0,5cm}
+
+9 \quad Zemansky: \emph{Heat and Thermodynamics},Mc Graw-Hill, New York, \textbf{1990}.\\
+
+\end{document}

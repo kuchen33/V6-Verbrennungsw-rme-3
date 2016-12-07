@@ -1,0 +1,7 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Experimentelles}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Versuchsaufbau}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Durchf\IeC {\"u}hrung}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Auswertung}{2}{section.2}
+\contentsline {section}{\numberline {3}Literaturverzeichnis}{3}{section.3}

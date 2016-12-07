@@ -1,0 +1,737 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  7 DEC 2016 16:37
+entering extended mode
+**"Messprotokoll Vorlage.tex"
+("Messprotokoll Vorlage.tex"
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("D:\Neuer Ordner\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("D:\Neuer Ordner\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\Neuer Ordner\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("D:\Neuer Ordner\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+("D:\Neuer Ordner\tex\latex\ucs\ucs.sty"
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+("D:\Neuer Ordner\tex\latex\ucs\uni-global.def"
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count88
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+("D:\Neuer Ordner\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("D:\Neuer Ordner\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("D:\Neuer Ordner\tex\generic\babel\babel.sty"
+Package: babel 2015/08/03 3.9m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("D:\Neuer Ordner\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("D:\Neuer Ordner\tex\latex\babel-german\ngerman.ldf"
+Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
+
+("D:\Neuer Ordner\tex\latex\babel-german\ngermanb.ldf"
+Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+
+("D:\Neuer Ordner\tex\generic\babel\babel.def"
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+\l@nswissgerman = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 88.
+)))
+("D:\Neuer Ordner\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("D:\Neuer Ordner\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("D:\Neuer Ordner\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\Neuer Ordner\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen104
+))
+("D:\Neuer Ordner\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+("D:\Neuer Ordner\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks21
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks22
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks23
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("D:\Neuer Ordner\tex\latex\tools\tabularx.sty"
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+
+("D:\Neuer Ordner\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks25
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\TX@col@width=\dimen115
+\TX@old@table=\dimen116
+\TX@old@col=\dimen117
+\TX@target=\dimen118
+\TX@delta=\dimen119
+\TX@cols=\count102
+\TX@ftn=\toks26
+)
+("D:\Neuer Ordner\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("D:\Neuer Ordner\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks27
+\float@box=\box28
+\@float@everytoks=\toks28
+\@floatcapt=\box29
+)
+("D:\Neuer Ordner\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("D:\Neuer Ordner\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+
+("D:\Neuer Ordner\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks29
+)
+\captionmargin=\dimen120
+\captionmargin@=\dimen121
+\captionwidth=\dimen122
+\caption@tempdima=\dimen123
+\caption@indent=\dimen124
+\caption@parindent=\dimen125
+\caption@hangindent=\dimen126
+)
+\c@ContinuedFloat=\count104
+Package caption Info: float package is loaded.
+)
+("D:\Neuer Ordner\tex\latex\caption\subcaption.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count105
+\c@subtable=\count106
+)
+("D:\Neuer Ordner\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+
+("D:\Neuer Ordner\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("D:\Neuer Ordner\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count107
+\calc@Bcount=\count108
+\calc@Adimen=\dimen127
+\calc@Bdimen=\dimen128
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count109
+\calc@Cskip=\skip50
+)
+("D:\Neuer Ordner\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("D:\Neuer Ordner\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("D:\Neuer Ordner\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("D:\Neuer Ordner\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+("D:\Neuer Ordner\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+("D:\Neuer Ordner\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("D:\Neuer Ordner\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("D:\Neuer Ordner\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count110
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+("D:\Neuer Ordner\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Neuer Ordner\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Neuer Ordner\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\Neuer Ordner\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
+\AM@pagewidth=\dimen131
+\AM@pageheight=\dimen132
+
+("D:\Neuer Ordner\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@global@opts=\toks30
+\AM@toc@title=\toks31
+\c@AM@survey=\count111
+\AM@templatesizebox=\box31
+)
+("D:\Neuer Ordner\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("D:\Neuer Ordner\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count112
+)
+("D:\Neuer Ordner\tex\latex\pgfplots\pgfplots.sty"
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplots.revision.tex")
+Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
+
+("D:\Neuer Ordner\tex\latex\pgf\frontendlayer\tikz.sty"
+("D:\Neuer Ordner\tex\latex\pgf\basiclayer\pgf.sty"
+("D:\Neuer Ordner\tex\latex\pgf\utilities\pgfrcs.sty"
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen133
+\pgfutil@tempdimb=\dimen134
+
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgfutil-common-lists.tex"))
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box32
+
+("D:\Neuer Ordner\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("D:\Neuer Ordner\tex\latex\pgf\basiclayer\pgfcore.sty"
+("D:\Neuer Ordner\tex\latex\pgf\systemlayer\pgfsys.sty"
+("D:\Neuer Ordner\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen135
+\pgf@y=\dimen136
+\pgf@xa=\dimen137
+\pgf@ya=\dimen138
+\pgf@xb=\dimen139
+\pgf@yb=\dimen140
+\pgf@xc=\dimen141
+\pgf@yc=\dimen142
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count113
+\c@pgf@countb=\count114
+\c@pgf@countc=\count115
+\c@pgf@countd=\count116
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+
+("D:\Neuer Ordner\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("D:\Neuer Ordner\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("D:\Neuer Ordner\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("D:\Neuer Ordner\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count117
+\pgfsyssoftpath@bigbuffer@items=\count118
+)
+("D:\Neuer Ordner\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmath.code.tex"
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathutil.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen143
+\pgfmath@count=\count119
+\pgfmath@box=\box33
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex"
+) ("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.random.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.base.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.round.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code
+.tex"))) ("D:\Neuer Ordner\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count120
+))
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen144
+\pgf@picmaxx=\dimen145
+\pgf@picminy=\dimen146
+\pgf@picmaxy=\dimen147
+\pgf@pathminx=\dimen148
+\pgf@pathmaxx=\dimen149
+\pgf@pathminy=\dimen150
+\pgf@pathmaxy=\dimen151
+\pgf@xx=\dimen152
+\pgf@xy=\dimen153
+\pgf@yx=\dimen154
+\pgf@yy=\dimen155
+\pgf@zx=\dimen156
+\pgf@zy=\dimen157
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen158
+\pgf@path@lasty=\dimen159
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen160
+\pgf@shorten@start@additional=\dimen161
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@layerbox@main=\box36
+\pgf@picture@serial@count=\count121
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen162
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen163
+\pgf@pt@y=\dimen164
+\pgf@pt@temp=\dimen165
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen166
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen167
+\pgf@sys@shading@range@num=\count122
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box37
+))
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("D:\Neuer Ordner\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("D:\Neuer Ordner\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box38
+)
+("D:\Neuer Ordner\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("D:\Neuer Ordner\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen168
+\pgf@nodesepend=\dimen169
+)
+("D:\Neuer Ordner\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("D:\Neuer Ordner\tex\latex\pgf\utilities\pgffor.sty"
+("D:\Neuer Ordner\tex\latex\pgf\utilities\pgfkeys.sty"
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("D:\Neuer Ordner\tex\latex\pgf\math\pgfmath.sty"
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmath.code.tex"))
+("D:\Neuer Ordner\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("D:\Neuer Ordner\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+("D:\Neuer Ordner\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("D:\Neuer Ordner\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count123
+\pgfplotmarksize=\dimen172
+)
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
+\tikz@figbox=\box39
+\tikz@figbox@bg=\box40
+\tikz@tempbox=\box41
+\tikz@tempbox@bg=\box42
+\tikztreelevel=\count124
+\tikznumberofchildren=\count125
+\tikznumberofcurrentchild=\count126
+\tikz@fig@count=\count127
+
+("D:\Neuer Ordner\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count128
+\pgfmatrixcurrentcolumn=\count129
+\pgf@matrix@numberofcolumns=\count130
+)
+\tikz@expandcount=\count131
+
+("D:\Neuer Ordner\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopat
+hs.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+))) ("D:\Neuer Ordner\tex\generic\pgfplots\pgfplots.code.tex"
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplotscore.code.tex"
+\t@pgfplots@toka=\toks44
+\t@pgfplots@tokb=\toks45
+\t@pgfplots@tokc=\toks46
+\pgfplots@tmpa=\dimen179
+\c@pgfplots@coordindex=\count132
+\c@pgfplots@scanlineindex=\count133
+
+("D:\Neuer Ordner\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex"))
+("D:\Neuer Ordner\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader
+.code.tex" ("D:\Neuer Ordner\tex\generic\pgf\libraries\pgflibraryfpu.code.tex")
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+("D:\Neuer Ordner\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgflib
+raryfpu.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfmat
+hfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count134
+))
+("D:\Neuer Ordner\tex\generic\pgfplots\util\pgfplotsutil.code.tex"
+("D:\Neuer Ordner\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code
+.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.c
+ode.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count135
+)
+("D:\Neuer Ordner\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count136
+\t@pgfplotstable@a=\toks47
+)
+("D:\Neuer Ordner\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\util\pgfplotsbinary.code.tex"
+("D:\Neuer Ordner\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex"))
+("D:\Neuer Ordner\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code
+.tex"
+\c@pgfplotslibrarysurf@no=\count137
+
+("D:\Neuer Ordner\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsy
+s-pdftex.def")))
+("D:\Neuer Ordner\tex\generic\pgfplots\util\pgfplotscolormap.code.tex"
+("D:\Neuer Ordner\tex\generic\pgfplots\util\pgfplotscolor.code.tex"))
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplotsstackedplots.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplotsplothandlers.code.tex"
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex"
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex")))
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplots.scaling.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplots.errorbars.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplots.markers.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplotsticks.code.tex")
+("D:\Neuer Ordner\tex\generic\pgfplots\pgfplots.paths.code.tex")
+("D:\Neuer Ordner\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecor
+ations.code.tex"
+("D:\Neuer Ordner\tex\generic\pgf\modules\pgfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen180
+\pgfdecoratedremainingdistance=\dimen181
+\pgfdecoratedinputsegmentcompleteddistance=\dimen182
+\pgfdecoratedinputsegmentremainingdistance=\dimen183
+\pgf@decorate@distancetomove=\dimen184
+\pgf@decorate@repeatstate=\count138
+\pgfdecorationsegmentamplitude=\dimen185
+\pgfdecorationsegmentlength=\dimen186
+)
+\tikz@lib@dec@box=\box43
+)
+("D:\Neuer Ordner\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecor
+ations.pathmorphing.code.tex"
+("D:\Neuer Ordner\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.p
+athmorphing.code.tex"))
+("D:\Neuer Ordner\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecor
+ations.pathreplacing.code.tex"
+("D:\Neuer Ordner\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.p
+athreplacing.code.tex"))
+\pgfplots@numplots=\count139
+\pgfplots@xmin@reg=\dimen187
+\pgfplots@xmax@reg=\dimen188
+\pgfplots@ymin@reg=\dimen189
+\pgfplots@ymax@reg=\dimen190
+\pgfplots@zmin@reg=\dimen191
+\pgfplots@zmax@reg=\dimen192
+)
+("D:\Neuer Ordner\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotm
+arks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("D:\Neuer Ordner\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+
+LaTeX Warning: Unused global option(s):
+    [onecolum].
+
+("Messprotokoll Vorlage.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+ ("D:\Neuer Ordner\tex\latex\ucs\ucsencs.def"
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box44
+
+("D:\Neuer Ordner\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count140
+\scratchdimen=\dimen193
+\scratchbox=\box45
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen194
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks49
+) ("D:\Neuer Ordner\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("D:\Neuer Ordner\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+("D:\Neuer Ordner\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
+your preamble.
+ on input line 22.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+("D:\Neuer Ordner\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+
+("D:\Neuer Ordner\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("D:\Neuer Ordner\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
+
+ []
+
+Package placeins Info: No floats held, on input line 91.
+[1
+
+{C:/Users/Jule/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+Package placeins Info: Float barrier, from input line 91, processed on page 1, 
+lands on page 1. 
+]
+("Messprotokoll Vorlage.aux") ) 
+Here is how much of TeX's memory you used:
+ 25384 strings out of 493673
+ 613528 string characters out of 3148822
+ 829351 words of memory out of 3000000
+ 28287 multiletter control sequences out of 15000+200000
+ 11370 words of font info for 36 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 62i,10n,96p,776b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Jule\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Jule\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Jule\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk><D:/Neuer Ordner/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><D:/Neuer Ordner/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/N
+euer Ordner/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Neuer Ordner/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Messprotokoll Vorlage.pdf" (1 page, 68540 bytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
