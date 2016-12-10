@@ -144,25 +144,68 @@ Datum der ersten Abgabe: & 15.12.2016\\
 
 \subsection{Versuchsaufbau}
 \subsection{Durchführung}
-Die Verbrennungswärme einer festen unbekannten Substanz sollte mittels eines Kalorimeters mit Berthelot-Mahlerscher Bombe ermittelt werden.
-Dabei wurde je ein Temperatur-Zeit-Diagramm mit LabView aufgestellt und die anderen Größen aus der Temperaturdifferenz bestimmt. Die Temperaturmessung erfolgte über einen Pt1000-\,Temperaturmesskopf (Verstärkung mit einem Pt1000-Vorverstärker um 20mV/K). Die Vor- und Nachperiode \textbf{betrug jeweils 5-7 Minuten}.\\
-Zur Bestimmung der Wärmekapazität des Kalorimeters wurden ca. 0,6 g Benzoesäure sowie ein vorher gewogener Nickeldraht zur Zündung in eine Tablette gepresst. Diese wurde anschließend mit 20-25 atm O$_2$ befüllt und die Enden des Nickeldrahtes an die Elektroden angeschlossen und die Temperatur von LabView aufgezeichnet.\\
-Anschließend wurde der Vorgang mit der organischen Substanz wiederholt. Der Versuch wurde jeweils 3 Mal wiederholt. Als erste organische Substanz diente Naphtalin und anschließend die unbekannte Substanz. Ein Durchlauf wurde mit \textbf{selbst mitgebrachte Substanz} durchgeführt.\\
+Die Verbrennungswärme von Naphtalin sollte mittels eines Kalorimeters mit Berthelot-Mahlerscher Bombe ermittelt werden.\\
+Zur Kalibrierung des Thermoelements wurden ca. 0,6 g mit einem vorher gedrehten und genau gewogenen Nickeldraht in eine Tablette gepresst. An einer Stelle wurde vorher eine Spur des doppelt gewickelten Drahtes durchtrennt und so gelegt, dass sich diese Zündungsstelle innerhalb der Tablette befand. Die Tablette wurde am Nickeldraht an zwei Elektroden befestigt und die Bombe angeschraubt. Anschließend wurde diese mit 25 atm O$_2$ befüllt und in das Wasserbad gestellt.  Die Temperaturmessung erfolgte über einen Pt1000-\,Temperaturmesskopf (Verstärkung mit einem Pt1000-Vorverstärker um 20mV/K). Nach ca. 3 Minuten Vorperiode wurde die Probe gezündet und ca. 5 Minuten lang weitergemessen(Nachperiode).
+Die Temperaturaufzeichung erfolgte mittels LabView.\\
+Der Vorgang wurde mit Bezoesäure(zur Ermittlung der Wärmekapazität des Thermoelements) und Naphtalin je drei mal durchgeführt.\\ 
 
 \section{Auswertung}
 
-Für die Verbrennung von Naphtalin (\ref{Naphtalin}) und Benzoesäure %(\ref{Benzoesäure}) ergeben sich folgende Reaktionsgleichungen:\\
+Für die Verbrennung von Naphtalin (\ref{Naphtalin}) und Benzoesäure (\ref{Benzoesaeure}) ergeben sich folgende Reaktionsgleichungen:\\
 
-%\begin{equation}\label{Benzoesäure}
-%2\mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + 15\mathrm{O}_2 \rightarrow 14\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O}
-%\end{equation}
-
-
-\begin{equation}\label{Naphtalin}
-\mathrm{C}_{10}\mathrm{H}_8 + 15\mathrm{O}_2 \rightarrow 14 \mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O}
+\begin{equation}\label{Benzoesaeure}
+2\mathrm{C_6}\mathrm{H}_5\mathrm{COOH}_\mathrm{(s)} + 15{\mathrm{O}_2}_\mathrm{(g)} \rightarrow 14{\mathrm{CO}_2}_\mathrm{(g)} +6\mathrm{H}_2\mathrm{O}_\mathrm{(l)}
 \end{equation}
 
-Nach dem Satz von Hess kann die Reaktionsenthalpie aus den Standardbildungsenthalpien $\Delta H_\mathrm{f}$ berechnet werden:\\
+\begin{equation}\label{Naphtalin}
+{\mathrm{C}_{10}\mathrm{H}_8}_\mathrm{(s)} + 15{\mathrm{O}_2}_\mathrm{(g)} \rightarrow 14 {\mathrm{CO}_2}_\mathrm{(g)} + 6\mathrm{H}_2\mathrm{O}_\mathrm{(l)}
+\end{equation}
+
+Die Wärmekapazität bei konstantem Volumen ist folgendermaßen definiert:\\
+
+\begin{equation}
+C_v=\left(\frac{\delta Q}{\partial T}\right)_v =\left(\frac{\partial U}{\partial T}\right)_v
+\end{equation}
+
+Die Temperaturänderung konnte aus den Auftragungen extrapoliert werden. 
+---------\\
+
+Das totale Differential der inneren Energie lautet folgendermaßen:\\
+
+\begin{equation}
+\mathrm{d}U= T\mathrm{d}S - p\mathrm{d}V
+\end{equation} 
+
+Bei konstantem Volumen fällt der letzte Term weg und folgender Zusammenhang mit der Enthalpie besteht:\\
+
+\begin{equation}
+\mathrm{d}H= T\mathrm{d}S + V\mathrm{d}p = \mathrm{d}U + V\mathrm{d}p = \Delta U +\mathrm{R}T\sum_i \nu_{i,gas}
+\end{equation}
+
+\textbf{Wie man auf letzten Term der Gleichugn kommt}
+
+Benzoesäure hat die Standardbildungsenthalpie $\Delta H_\mathrm{f}^0$=
+
+
+-------------------\\
+
+Die aus den Auftragungen ermittelten Temperaturdifferenzen sind in Tabelle (\ref{TabDeltaT}) dargestellt. 
+\FloatBarrier
+
+\begin{table} \label{TabDeltaT}\caption{Aus den Auftragungen ermittelte Temperaturdifferenzen.}
+\begin{tabular}{c|c|c|c|c|c|c}
+&\multicolumn{3}{c|}{Benzoesäure} & \multicolumn{3}{c}{Naphtalin}\\ 
+Messung& 1&2&3&1&2&3\\
+\hline 
+$\Delta T$ /K & 1,21 & 1,17 & 1,15 & 2,31 & 1,88 & 2,05 \\ 
+\end{tabular} 
+\end{table}
+
+
+
+
+\subsection{Auswertung 5}
+Nach dem Satz von Hess kann die Reaktionsenthalpie aus den Standardbildungsenthalpien $\Delta H_\mathrm{f}$ für die Bildung von Naphtalin(\ref{RktBildungNaphtalin}) berechnet werden:\\
 
 \begin{equation} \label{GleichungHess}
 \Delta H_\mathrm{V} = \sum_i \nu_i\Delta H_{\mathrm{f},i}\mathrm{(Produkte)} - \sum_i \nu_i\Delta H_{\mathrm{f},i}\mathrm{(Edukte)}
@@ -170,49 +213,51 @@ Nach dem Satz von Hess kann die Reaktionsenthalpie aus den Standardbildungsentha
 
 Die Literaturwerte für die molaren Standardbildungsenthalpien sowie die nach Gleichung(\ref{GleichungHess}) berechnete Verbrennungsenthalpie für Naphtalin sind in Tabelle(\ref{TABELLELiteraturwerte Bildungsenthalpien}) aufgelistet:\\
 
+\begin{center}
 \begin{table} \label{TABELLELiteraturwerte Bildungsenthalpien}
 \caption{molare Standardbildungsenthalpien sowie die Verbrennungsenthalpie von Naphtalin}
 \begin{tabular}{c|c}
-
-  & $\Delta H_{\mathrm{f,m}}$ \\ 
+  & $\Delta H_{\mathrm{f,m}}$ [J$\cdot$mol$^{-1}$ \\ 
  \hline 
  $\mathrm{C}_6\mathrm{H}_5\mathrm{COOH}$ & • \\ 
  \hline 
  $\mathrm{C}_{10}\mathrm{H}_8$ & • \\
  \hline 
- $\mathrm{O}_2$ & • \\ 
+ $\mathrm{O}_2\mathrm{(g)}$ & 0 \\ 
  \hline 
- $\mathrm{CO}_2$ & • \\ 
+ $\mathrm{CO}_2\mathrm{g}$ & -393,51$^1$ \\ 
  \hline 
- $\mathrm{H}_2\mathrm{O}$ & • \\ 
+ $\mathrm{H}_2\mathrm{O}_\mathrm{l}$ & –285.830 \\ 
  \end{tabular}  
 \end{table}
+\end{center}
 
+\section{Anhang}
+Auftragungen
 
 
 \section{Literaturverzeichnis}
 
 1,3,4\quad \emph{CRC Handbook of Chemistry and Physics}, 84. Auflage; D.R. Lide; CRC Press LLC: Boca Raton, \textbf{2004}.
-
-2\quad Kabo, G.J.; Kozyro,A., A.; Frenkel, M.; Blokhin, A. V.\emph{Mol. Cryst. Liq. Cryst.}, \textbf{1999}, \emph{326}, 333-335.
-
-5\quad Eckhold, Götz: \emph{Praktikum I zur Physikalischen Chemie}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2014}.
-
 \vspace{0,5 cm}
+%2\quad Kabo, G.J.; Kozyro,A., A.; Frenkel, M.; Blokhin, A. V.\emph{Mol. Cryst. Liq. Cryst.}, \textbf{1999}, \emph{326}, 333-335.
 
-6 \quad Eckhold, Götz: \emph{Statistische Thermodynamik}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2012}.
+%5\quad Eckhold, Götz: \emph{Praktikum I zur Physikalischen Chemie}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2014}.
 
-\vspace{0,5cm}
+%\vspace{0,5 cm}
 
-7 \quad Eckhold, Götz: \emph{Chemisches Gleichgewicht}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+%6 \quad Eckhold, Götz: \emph{Statistische Thermodynamik}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2012}.
 
-\vspace{0,5cm}
+%\vspace{0,5cm}
 
-8 \quad Atkins, P.W.: \emph{Physikalische Chemie}, Wiley-VCH, Weinheim, \
- textbf{2006}.\\
+%7 \quad Eckhold, Götz: \emph{Chemisches Gleichgewicht}, Institut für Physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
 
-\vspace{0,5cm}
+%\vspace{0,5cm}
 
-9 \quad Zemansky: \emph{Heat and Thermodynamics},Mc Graw-Hill, New York, \textbf{1990}.\\
+%8 \quad Atkins, P.W.: \emph{Physikalische Chemie}, Wiley-VCH, Weinheim, \textbf{2006}.\\
+
+%\vspace{0,5cm}
+
+%9 \quad Zemansky: \emph{Heat and Thermodynamics},Mc Graw-Hill, New York, \textbf{1990}.\\
 
 \end{document}
