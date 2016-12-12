@@ -1,9 +1,12 @@
 \select@language {ngerman}
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Experimentelles}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Versuchsaufbau}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Durchf\IeC {\"u}hrung}{2}{subsection.1.2}
-\contentsline {section}{\numberline {2}Auswertung}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Auswertung 5}{3}{subsection.2.1}
-\contentsline {section}{\numberline {3}Anhang}{4}{section.3}
-\contentsline {section}{\numberline {4}Literaturverzeichnis}{4}{section.4}
+\contentsline {section}{\numberline {1}Experimentelles}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Versuchsaufbau}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Durchf\IeC {\"u}hrung}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Auswertung}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t des Kalorimeters und der \IeC {\"A}nderung der inneren Energie}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Bestimmung der Verbrennungsw\IeC {\"a}rme $\Delta H_\mathrm {C,m}$ von Naphtalin}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Fehlerrechnung}{8}{subsection.2.3}
+\contentsline {section}{\numberline {3}Fehlerdiskussion}{8}{section.3}
+\contentsline {section}{\numberline {4}Anhang}{9}{section.4}
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{9}{section.5}

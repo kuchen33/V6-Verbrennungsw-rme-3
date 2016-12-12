@@ -1,0 +1,6 @@
+Fehler von n
+Fehler von Delta T!!!
+
+C_{v,m}= dU/dT *n= (dH(Literaturwert)-RT(Fehler)\sum v_i)/dT(Fehler) *n(Fehler)
+
+\Delta C_{v,m}= 
