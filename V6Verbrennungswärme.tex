@@ -35,7 +35,8 @@
 
 % Anderes Literaturverzeichnisformat
 %\usepackage[square,sort&compress]{natbib}
-\usepackage{hyperref}
+%\usepackage{hyperref}
+\usepackage{url}
 % Für Farbe
 \usepackage{color}
 \usepackage{graphicx}
@@ -119,7 +120,6 @@
 
 \vspace*{0.5cm}
 
-
 \begin{Large}
 \begin{tabular}{ll}
 Durchführende: &  Isaac Maksso, Julia Stachowiak\\
@@ -131,16 +131,13 @@ Datum der ersten Abgabe: & 15.12.2016\\
 
 \vspace*{0.5cm}
 
-
-
-
 \vspace{1.3cm} 
 \end{titlepage}
 
 
 \tableofcontents %=Inhaltsverzeichnis
-
-\section{Experimentelles}
+ 
+ \section{Experimentelles}
 
 \subsection{Versuchsaufbau}
 \subsection{Durchführung}
@@ -160,6 +157,8 @@ Für die Verbrennung von Naphtalin (\ref{Naphtalin}) und Benzoesäure (\ref{Benz
 \begin{equation}\label{Naphtalin}
 {\mathrm{C}_{10}\mathrm{H}_8}_\mathrm{(s)} + 12\,{\mathrm{O}_2}_\mathrm{(g)} \rightarrow 10\,{\mathrm{CO}_2}_\mathrm{(g)} + 4\,\mathrm{H}_2\mathrm{O}_\mathrm{(l)}
 \end{equation}
+
+
 
 Nach dem Satz von Hess kann die Reaktionsenthalpie aus der Differenz der Standardbildungsenthalpien $\Delta H_\mathrm{f}^0$ zwischen Produkten und Edukten berechnet werden:\\
 
@@ -189,12 +188,14 @@ Die Literaturwerte für die molaren Standardbildungsenthalpien und die nach Glei
 \end{center}
 \FloatBarrier
 
+
 \subsection{Bestimmung der Wärmekapazität des Kalorimeters und der Änderung der inneren Energie}
 Die Wärmekapazität bei konstantem Volumen ist folgendermaßen definiert:\\
 
-\begin{equation}\label{Wärmekapazität}
-C_v=\left(\frac{\delta Q}{\partial T}\right)_v =\left(\frac{\partial U}{\partial T}\right)_v
+\begin{equation}\label{Waermekapazitaet}
+C_v = \left(\frac{\delta Q}{\partial T}\right)_v = \left(\frac{\partial U}{\partial T}\right)_v
 \end{equation}
+
 
 Integration liefert einen Differenzenquotienten. Die aus den Auftragungen ermittelten Temperaturdifferenzen sind in Tabelle (\ref{TabDeltaT}) dargestellt. 
 \FloatBarrier
@@ -211,6 +212,8 @@ $n$ /mmol& 5,288&4,949&5,084&6,420&4,811&5,518\\
 \end{table}
 \FloatBarrier
 
+
+
 Das totale Differential der inneren Energie lautet folgendermaßen:\\
 
 \begin{equation}
@@ -219,13 +222,13 @@ Das totale Differential der inneren Energie lautet folgendermaßen:\\
 
 Bei konstantem Volumen fällt der letzte Term weg und folgender Zusammenhang mit der Enthalpie besteht:\\
 
-\begin{equation} \label{Gl.6.1}
+\begin{equation} \label{Gl61}
 \mathrm{d}H= T\mathrm{d}S + V\mathrm{d}p = \mathrm{d}U + V\mathrm{d}p = \Delta U +\mathrm{R}T_0\sum_i \nu_{i,gas}
 \end{equation}
 
 \textbf{Wie man auf letzten Term der Gleichung kommt}
 
-Für Benzoesäure kann die Wärmekapazität nach Gleichung (\ref{Wärmekapazität}) und die Änderung der inneren Energie nach Gleichung (\ref{Gl.6.1}) bestimmt werden. $T_0$ beschreibt dabei die Anfangstemperatur der Messung. Nach der Reaktionsgleichung für die Verbrennung von Benzoesäure ergibt sich $\sum \nu_{i,\mathrm{gas}}= -0,5$. Die Ergebnisse sind in Tabelle (\ref{TabDeltaT}) dargestellt.\\
+Für Benzoesäure kann die Wärmekapazität nach Gleichung (\ref{Waermekapazitaet}) und die Änderung der inneren Energie nach Gleichung (\ref{Gl61}) bestimmt werden. $T_0$ beschreibt dabei die Anfangstemperatur der Messung. Nach der Reaktionsgleichung für die Verbrennung von Benzoesäure ergibt sich $\sum \nu_{i,\mathrm{gas}}= -0,5$. Die Ergebnisse sind in Tabelle (\ref{TabDeltaT}) dargestellt.\\
 
 \begin{table} \label{TabDeltaT}\caption{Caption Werte für Benzoesäure}
 \begin{tabular}{c|c|c|c}
@@ -243,7 +246,7 @@ $c_{v,\mathrm{m}}$ /kJ$\cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}$&-14,102&-1
 
 \subsection{Bestimmung der Verbrennungswärme $\Delta H_\mathrm{C,m}$ von Naphtalin}
 
-Mit der bestimmten molaren Wärmekapazität des Thermoelements Kann die Verbrennungswärme von Naphtalin berechnet werden. Einsetzen in Glichung (\ref{Gl.6.1}) mit $\sum_i \nu_i$= -2 liefert die Verbrennungsenthalpie $\Delta H_\mathrm{C}$.\\
+Mit der bestimmten molaren Wärmekapazität des Thermoelements Kann die Verbrennungswärme von Naphtalin berechnet werden. Einsetzen in Glichung (\ref{Gl61}) mit $\sum_i \nu_i$= -2 liefert die Verbrennungsenthalpie $\Delta H_\mathrm{C}$.\\
 
 \begin{equation}
 \Delta U= \Delta Q= C_{v,\mathrm{m}}\cdot \Delta T
