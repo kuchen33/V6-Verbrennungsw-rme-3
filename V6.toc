@@ -1,0 +1,15 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Experimentelles}{3}
+\contentsline {subsection}{\numberline {1.1}Versuchsaufbau}{3}
+\contentsline {subsection}{\numberline {1.2}Durchf\IeC {\"u}hrung}{3}
+\contentsline {section}{\numberline {2}Auswertung}{4}
+\contentsline {subsection}{\numberline {2.1}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t des Kalorimeters und der \IeC {\"A}nderung der inneren Energie}{5}
+\contentsline {subsection}{\numberline {2.2}Bestimmung der Verbrennungsenthalpie $\Delta H_\mathrm {C,m}$ von Naphthalin}{6}
+\contentsline {subsection}{\numberline {2.3}Berechnung der Standardbildungsenthalpie $\Delta H_\mathrm {f,m}$ von Napthalin}{7}
+\contentsline {subsection}{\numberline {2.4}Fehlerrechnung}{7}
+\contentsline {section}{\numberline {3}Fehlerdiskussion}{9}
+\contentsline {section}{\numberline {4}Anhang}{11}
+\contentsline {subsection}{\numberline {4.1}Auftragungen der Messungen}{11}
+\contentsline {subsection}{\numberline {4.2}Auftragungen mit Grenzgeraden}{15}
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{19}
